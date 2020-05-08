@@ -10,3 +10,5 @@ starter_files/Final_Combined/__pycache__/api_keys.cpython-37.pyc
 starter_files/Final_Combined/__pycache__/quandl_apitoken.cpython-37.pyc
 starter_files/Final_Combined/quandl_apitoken.py
 starter_files/Gary/.ipynb_checkpoints/Untitled-checkpoint.ipynb
+api_keys.py
+quandl_apitoken.py
