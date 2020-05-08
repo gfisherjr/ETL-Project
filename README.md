@@ -29,11 +29,13 @@ The following information explains the steps taken:
          * References:
             - [URL for the forexfactory.com Economic Event Calendar](https://www.forexfactory.com/calendar?month=last)
             
-<p>
+</br>
+<p align="center">
 *** After the initial setup was completed, the ETL process began. ***
 </p>
+</br>
 
-
+   2.
 
 
 <hr>
