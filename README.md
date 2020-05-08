@@ -57,6 +57,8 @@ The following information explains the steps taken:
          7. US GDP
          8. US GNP
 
+      3. Source: ForexFactory.com 
+         1. Global Economic Event Calendar
 
 <hr>
 <p align="center">
