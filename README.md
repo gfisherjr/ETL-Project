@@ -35,7 +35,7 @@ The following information explains the steps taken:
 </p>
 </br>
 
-   2. EXTRACT: The following 3 data sources were used to pull the needed data.
+   **2. EXTRACT:** The following 3 data sources were used to pull the needed data.
    
       1. Source: quandle.com (API) – Commodities Futures Historical Data
          1. copper_2nd.csv
@@ -60,7 +60,7 @@ The following information explains the steps taken:
       3. Source: ForexFactory.com 
          1. Global Economic Event Calendar
 
-   3. TRANSFORM:
+   **3. TRANSFORM:**
       
       1. Quandl:
          * Read the extracted csv's into a pandas dataframe.
@@ -81,7 +81,7 @@ The following information explains the steps taken:
          * Converted "Date" values to type datetime.
          * Created dictionary from dataframe for MongoDB load.
          
-   4. LOAD:
+   **4. LOAD:**
    
       1. Created a connection to a local MongoDB database
       2. Defined an "Economics" database and declared ten (10) collections for housing extracted data.
@@ -93,14 +93,19 @@ The following information explains the steps taken:
       3. Used a .insert_many() for loop on each collection to upload data into the MongoDB database.
       
       <p align="center">
-        <img src="screenshots/insert_many_function.PNG" alt="drawing" width="400"/>
+        <img src="screenshots/insert_many_function.PNG" alt="drawing" width="600"/>
       </p>   
 
 
+### Conclusions:
 
+The team was able to bring large amounts of data together from multiple sources and combine everything into one MongoDB database. The ability to run both API calls and perform web-scraping at once allows us to update on a daily basis in order to retrieve real-time results. We all wanted to be able to automate as many tasks as possible, and we successfully accomplished this task by utilizing the previously mentioned data-retrieval techniques. 
+
+Future work will be done on this project to expand upon different dataset types for possible entry into the database. Expansion upon the database entries and structure will allow for better, more robust data analysis for our use in the next projects.
 
 
 <hr>
+##### View of Created MongoDB Database "economics_db"
 <p align="center">
   <img src="screenshots/MongoDB_economics_db.PNG" alt="drawing" width="700"/>
 </p>
