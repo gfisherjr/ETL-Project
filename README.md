@@ -19,8 +19,15 @@ The following information explains the steps taken:
 </br>
 
    1. An initial setup needed to take place before performing the ETL process.
-      * Generated API keys, installed requirement files, and imported dependencies for quandl.com API and stlouisfed.org API. 
+      * Obtained API keys, installed requirement files, and imported dependencies for quandl.com API and stlouisfed.org API. 
+         * References: 
+            - [Obtain a Quandl API Key](https://docs.quandl.com/docs#section-authentication)
+            - [Obtain a "FRED" (Federal Reserve) API Key](https://fred.stlouisfed.org/docs/api/api_key.html)
+            - [Install Instructions for Quandl API Python Package](https://docs.quandl.com/docs/python-installation)
+            - [Install Instructions for "FRED" (Federal Reserve) API Python Package](https://github.com/jjotterson/datapungi_fed)
       * Created a .get() request path using BeautifulSoup, analyzed the returned table elements, and decided which were to be extracted from forexfactory.com.
+         * References:
+            - [URL for the forexfactory.com Economic Event Calendar](https://www.forexfactory.com/calendar?month=last)
 
 
 
