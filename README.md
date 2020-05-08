@@ -86,9 +86,9 @@ The following information explains the steps taken:
       1. Created a connection to a local MongoDB database
       2. Defined an "Economics" database and declared ten (10) collections for housing extracted data.
       
-      <p align="center">
-        <img src="screenshots/MongoDB_economics_db.PNG" alt="drawing" width="300"/>
-      </p>
+<p align="center">
+<img src="screenshots/declaring_db_collections.PNG" alt="drawing" width="400"/>
+</p>
       
       3. 
          
