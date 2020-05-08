@@ -83,7 +83,14 @@ The following information explains the steps taken:
          
    4. LOAD:
    
+      1. Created a connection to a local MongoDB database
+      2. Defined an "Economics" database and declared ten (10) collections for housing extracted data.
       
+      <p align="center">
+        <img src="screenshots/MongoDB_economics_db.PNG" alt="drawing" width="300"/>
+      </p>
+      
+      3. 
          
 
 
@@ -92,18 +99,18 @@ The following information explains the steps taken:
 
 <hr>
 <p align="center">
-  <img src="Screenshots/MongoDB_economics_db.PNG" alt="drawing" width="700"/>
+  <img src="screenshots/MongoDB_economics_db.PNG" alt="drawing" width="700"/>
 </p>
 <hr>
 <p align="center">
-  <img src="Screenshots/economics_db.commodities_copper.PNG" alt="drawing" width="500"/>
+  <img src="screenshots/economics_db.commodities_copper.PNG" alt="drawing" width="500"/>
 </p>
 <hr>
 <p align="center">
-  <img src="Screenshots/economics_db.fed_data.PNG" alt="drawing" width="500"/>
+  <img src="screenshots/economics_db.fed_data.PNG" alt="drawing" width="500"/>
 </p>
 <hr>
 <p align="center">
-  <img src="Screenshots/economics_db.event_data.PNG" alt="drawing" width="500"/>
+  <img src="screenshots/economics_db.event_data.PNG" alt="drawing" width="500"/>
 </p>
 <hr>
