@@ -70,7 +70,21 @@ The following information explains the steps taken:
       2. Federal Reserve "FRED":
          * Merged all extracted datasets into one pandas dataframe.
          * Renamed columns and set index to "Date".
-         * 
+         * Limited the dataset to only include dates after April 1st 2019.
+         * Created dictionary from dataframe for MongoDB load.
+      3. ForexFactory:
+         * Created a pandas dataframe from extracted calendar event data.
+         * Set columns to only include extracted event data for "Date", "Country", "Event", "Actual", "Forecast", and "Previous".
+         * Set dataframe index to "Date" and dropped all rows with "NaN" and "None" values.
+         * Reset the index and applied function to drop the day of the week in "Date" values.
+         * Replaced blank cells with "NaN" and filled the "NaN" values with the date of the respective economic event.
+         * Converted "Date" values to type datetime.
+         * Created dictionary from dataframe for MongoDB load.
+         
+   4. LOAD:
+   
+      
+         
 
 
 
