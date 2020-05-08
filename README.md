@@ -28,10 +28,10 @@ The following information explains the steps taken:
       * Created a .get() request path using BeautifulSoup, analyzed the returned table elements, and decided which were to be extracted from forexfactory.com.
          * References:
             - [URL for the forexfactory.com Economic Event Calendar](https://www.forexfactory.com/calendar?month=last)
-</br>
-</br>
-`After the initial setup was completed, the ETL process began.`
-
+            
+<p>
+*** After the initial setup was completed, the ETL process began. ***
+</p>
 
 
 
