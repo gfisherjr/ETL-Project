@@ -16,6 +16,7 @@ The database ingests 3 different data sources (see below):
 </br>
 The following information explains the steps taken:
 </br>
+</br>
 
    1. An initial setup needed to take place before performing the ETL process.
       * Generated API keys, installed requirement files, and imported dependencies for quandl.com API and stlouisfed.org API. 
