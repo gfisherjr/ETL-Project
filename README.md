@@ -19,13 +19,13 @@ The following information explains the steps taken:
 </br>
 
    1. An initial setup needed to take place before performing the ETL process.
-      * Obtained API keys, installed requirement files, and imported dependencies for quandl.com API and stlouisfed.org API. 
+      1. Obtained API keys, installed requirement files, and imported dependencies for quandl.com API and stlouisfed.org API. 
          * References: 
             - [Obtain a Quandl API Key](https://docs.quandl.com/docs#section-authentication)
             - [Obtain a "FRED" (Federal Reserve) API Key](https://fred.stlouisfed.org/docs/api/api_key.html)
             - [Install Instructions for Quandl API Python Package](https://docs.quandl.com/docs/python-installation)
             - [Install Instructions for "FRED" (Federal Reserve) API Python Package](https://github.com/jjotterson/datapungi_fed)
-      * Created a .get() request path using BeautifulSoup, analyzed the returned table elements, and decided which were to be extracted from forexfactory.com.
+      2. Created a .get() request path using BeautifulSoup, analyzed the returned table elements, and decided which were to be extracted from forexfactory.com.
          * References:
             - [URL for the forexfactory.com Economic Event Calendar](https://www.forexfactory.com/calendar?month=last)
             
@@ -35,7 +35,27 @@ The following information explains the steps taken:
 </p>
 </br>
 
-   2.
+   2. EXTRACT: The following 3 data sources are used to pull the needed data.
+   
+      1. Source: quandle.com (API) – Commodities Futures Historical Data
+         1. copper_2nd.csv
+         2. gold_2nd.csv
+         3. silver_2nd.csv
+         4. crude_2nd.csv
+         5. natgas_2nd.csv
+         6. corn_2nd.csv
+         7. livecatt_2nd.csv
+         8. K_Wheat_2nd.csv 
+
+      2. Source: St. Louis Federal Reserve (FRED API) – Historical Economic Data
+         1. AAA Corp Yield
+         2. BBB Corp Yield
+         3. CCC Corp High Yield
+         4. 3-Month LIBOR
+         5. 10-Yr Treas Yld
+         6. 10Yr - 2Yr Treas Yld
+         7. US GDP
+         8. US GNP
 
 
 <hr>
