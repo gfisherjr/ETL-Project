@@ -35,7 +35,7 @@ The following information explains the steps taken:
 </p>
 </br>
 
-   2. EXTRACT: The following 3 data sources are used to pull the needed data.
+   2. EXTRACT: The following 3 data sources were used to pull the needed data.
    
       1. Source: quandle.com (API) – Commodities Futures Historical Data
          1. copper_2nd.csv
@@ -59,6 +59,22 @@ The following information explains the steps taken:
 
       3. Source: ForexFactory.com 
          1. Global Economic Event Calendar
+
+   3. TRANSFORM:
+      
+      1. Quandl:
+         * Read the extracted csv's into a pandas dataframe.
+         * Set columns to "Date", "Open", "High", "Low", "Settle", and "Volume" for each dataframe.
+         * Set index on all dataframes to "Date".
+         * Created dictionaries from dataframes for MongoDB load.
+      2. Federal Reserve "FRED":
+         * Merged all extracted datasets into one pandas dataframe.
+         * Renamed columns and set index to "Date".
+         * 
+
+
+
+
 
 <hr>
 <p align="center">
