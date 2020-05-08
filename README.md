@@ -20,3 +20,4 @@ ETL-Project
 <p align="center">
   <img src="https://github.com/gfisherjr/ETL-Project/blob/master/starter_files/Final_Combined/Screenshots/economics_db.event_data.PNG" alt="drawing" width="500"/>
 </p>
+<hr>
