@@ -35,7 +35,7 @@ The following information explains the steps taken:
 </p>
 </br>
 
-   **2. EXTRACT:** The following 3 data sources were used to pull the needed data.
+   2. EXTRACT: The following 3 data sources were used to pull the needed data.
    
       1. Source: quandle.com (API) – Commodities Futures Historical Data
          1. copper_2nd.csv
@@ -60,7 +60,7 @@ The following information explains the steps taken:
       3. Source: ForexFactory.com 
          1. Global Economic Event Calendar
 
-   **3. TRANSFORM:**
+   3. TRANSFORM:
       
       1. Quandl:
          * Read the extracted csv's into a pandas dataframe.
@@ -81,7 +81,7 @@ The following information explains the steps taken:
          * Converted "Date" values to type datetime.
          * Created dictionary from dataframe for MongoDB load.
          
-   **4. LOAD:**
+   4. LOAD:
    
       1. Created a connection to a local MongoDB database
       2. Defined an "Economics" database and declared ten (10) collections for housing extracted data.
@@ -105,20 +105,35 @@ Future work will be done on this project to expand upon different dataset types 
 
 
 <hr>
-##### View of Created MongoDB Database "economics_db"
+
+### Structure of Created MongoDB Database "economics_db"
+
 <p align="center">
   <img src="screenshots/MongoDB_economics_db.PNG" alt="drawing" width="700"/>
 </p>
+
 <hr>
+
+### Structure and Field Values of Collection "commodities_copper"
+
 <p align="center">
   <img src="screenshots/economics_db.commodities_copper.PNG" alt="drawing" width="500"/>
 </p>
+
 <hr>
+
+### Structure and Field Values of Collection "fed_data"
+
 <p align="center">
   <img src="screenshots/economics_db.fed_data.PNG" alt="drawing" width="500"/>
 </p>
+
 <hr>
+
+### Structure and Field Values of Collection "event_data"
+
 <p align="center">
   <img src="screenshots/economics_db.event_data.PNG" alt="drawing" width="500"/>
 </p>
+
 <hr>
