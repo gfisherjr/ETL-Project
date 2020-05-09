@@ -106,9 +106,7 @@ Future work will be done on this project to expand upon different dataset types 
 </br>
 
 <hr>
-
 </br>
-
 ### Structure of Created MongoDB Database "economics_db"
 
 <p align="center">
