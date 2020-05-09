@@ -83,6 +83,8 @@ The following information explains the steps taken:
          * Converted "Date" values to type datetime.
          * Created dictionary from dataframe for MongoDB load.
          
+</br>         
+         
    4. LOAD:
    
       1. Created a connection to a local MongoDB database
