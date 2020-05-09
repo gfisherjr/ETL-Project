@@ -103,8 +103,11 @@ The team was able to bring large amounts of data together from multiple sources 
 
 Future work will be done on this project to expand upon different dataset types for possible entry into the database. Expansion upon the database entries and structure will allow for better, more robust data analysis for our use in the next projects.
 
+</br>
 
 <hr>
+
+</br>
 
 ### Structure of Created MongoDB Database "economics_db"
 
