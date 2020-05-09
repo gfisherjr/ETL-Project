@@ -60,6 +60,8 @@ The following information explains the steps taken:
       3. Source: ForexFactory.com 
          1. Global Economic Event Calendar
 
+</br>
+
    3. TRANSFORM:
       
       1. Quandl:
